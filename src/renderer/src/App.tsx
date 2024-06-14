@@ -5,7 +5,7 @@ function App() {
         Electron React Typescript Boilerplate
       </span>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
