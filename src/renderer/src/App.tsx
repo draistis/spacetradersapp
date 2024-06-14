@@ -1,10 +1,11 @@
+import { Content, RootLayout, Sidebar } from './components'
+
 function App() {
   return (
-    <div className="flex h-full items-center justify-center">
-      <span className="text-4xl text-red-500">
-        Electron React Typescript Boilerplate
-      </span>
-    </div>
+    <RootLayout>
+      <Sidebar className="border-4 border-red-500">sidebar</Sidebar>
+      <Content className="border-4 border-blue-500">content</Content>
+    </RootLayout>
   )
 }
 
